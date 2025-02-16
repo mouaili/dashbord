@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* general styles css */
+
+/* header */
+header {
+  background-color: #313a7c;
+  color: aliceblue;
+  padding: 1rem;
+  border-bottom: 1px solid #dee2e6;
+}
+
+/* container */
+
+.container {
+  padding: 1rem;
+  background-color: darkred;
+  font-size: 1.36rem;
+  color: #f1f1f1;
+}
+
+article {
+  padding: 1rem;
+  color: antiquewhite;
+}
+
+/* navigation, sidenav */
+
+/* footer */
+
+footer {
+  /* position: fixed; */
+  background-color: #313a7c;
+  color: aliceblue;
+  padding: 1rem;
+  border-top: 1px solid #dee2e6;
+  text-align: center;
+  width: 100%;
+  bottom: 0;
+}
